@@ -9,7 +9,7 @@ public class Server {
 
     public static final int[] idList = {303, 5012, 1, 2, 0};
     public static LinkedHashSet<Integer> ConnectedId = new LinkedHashSet<>();
-
+    public static int numberConnected = 0;
     public static int PORT = 9595;
 
     public Server() throws IOException {
